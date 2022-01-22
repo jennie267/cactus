@@ -1,0 +1,10 @@
+---
+applications:
+- name: periodcactus
+  memory: 2G
+  instances: 1
+  host: periodcactus
+  path: build/libs/CactusScheduleApi-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  env:
+    TZ: Asia/Seoul

@@ -1,0 +1,10 @@
+---
+applications:
+- name: productcactus
+  memory: 2G
+  instances: 1
+  host: productcactus
+  path: target/CactusProductApi-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  env:
+    TZ: Asia/Seoul

@@ -1,0 +1,10 @@
+---
+applications:
+- name: usercactus
+  memory: 2G
+  instances: 1
+  host: usercactus
+  path: target/CactusUserApi3-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  env:
+      TZ: Asia/Seoul

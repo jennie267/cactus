@@ -1,0 +1,8 @@
+---
+applications:
+- name: auth
+  memory: 2G
+  instances: 1
+  host: authcactus
+  path: target/Auth-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
